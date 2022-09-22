@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.App{
+  margin: 20px;
+}
+
+.search-box{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+.search-bar{
+  font-size: 20px;
+  padding: 10px;
+}
+
+.ul-list{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+}
+
+.ul-list-items{
+  border: 3px double gray;
+  min-width: 180px;
+  height: auto;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin: 10px;
+  font-size: 0.9rem;
+}
+li{
+  margin-top: 1px;
+}
+
+.profilePic{
+  margin: 20px;
+  border-radius: 50%;
+  width: 60px;
+  height: auto;
+}
